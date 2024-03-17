@@ -1,0 +1,24 @@
+program: train.py
+method: bayes
+metric:
+  goal: maximize
+  name: validation_accuracy
+parameters:
+  nhl:
+    values: [3, 4, 5]
+  hls:
+    values: [32, 64, 128]
+  eta:
+    values: [1e-3, 1e-4]
+  bs:
+    values: [16, 32, 64]
+  epochs:
+    values: [5, 10]
+  wdc:
+    values: [0, 0.0005, 0.5]
+  opt:
+    values: ["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"]
+  af:
+    values: ["sigmoid", "tanh", "ReLU"]
+  wi:
+    values: ["random", "Xavier"]
