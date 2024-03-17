@@ -18,4 +18,4 @@ This paraphrased version maintains the key details and structure of the original
 
 Best Results -
 
-Validation Accuracy - 0.8822 Test Accuracy - 0.8687 Test error - 0.3771
+Validation Accuracy - 0.8878 Test Accuracy - 0.8867 Test error - 0.3771
