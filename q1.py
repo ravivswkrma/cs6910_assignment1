@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 
 os.environ['WAND_NOTEBOOK_NAME'] = 'Q1'
 
+# !wandb login 8f26d3215193b9c0e8e37007dfbb313be26db111
+
 wandb.login()
 
 
