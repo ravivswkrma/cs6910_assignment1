@@ -11,7 +11,7 @@ os.environ['WAND_NOTEBOOK_NAME']='train'
 import argparse
 parser=argparse.ArgumentParser()
 parser.add_argument("-wp",     "--wandb_project",   help="project_name",       type=str,                                                                  default="Assignment 1")
-parser.add_argument("-we",     "--wandb_entity",    help="entity",             type=str,                                                                  default="cs22m70")
+parser.add_argument("-we",     "--wandb_entity",    help="entity",             type=str,                                                                  default="cs22m070")
 parser.add_argument("-d",      "--dataset",         help="dataset_name",       type=str,   choices=["fashion_mnist","mnist"],                             default="fashion_mnist")
 parser.add_argument("-m",      "--momentum",        help="m",                  type=float, choices=[0.5,0.9],                                             default=0.9)
 parser.add_argument("-beta",   "--beta",            help="beta",               type=float, choices=[0.5,0.9],                                             default=0.9)
